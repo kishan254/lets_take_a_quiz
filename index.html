@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 
     <style>
@@ -14,19 +15,17 @@
     </style>
 </head>
 <body>
-    
-
-    <!-- landing page -->
-    <!-- start btn -->
+    <!--First page that asks user to click on start button-->
+<main>    
     <section id="landing-page">
-        <h1>BEST QUIZ EVARR</h1>
+        <h1>Simple Math Quiz</h1>
         <button id="btn-start">Start</button>
     </section>
-
-
+</main>
 
     <!-- question page -->
-    <section class="hide" id="question-page">
+<section class = secondPage>
+    <article class="hide" id="question-page">
         <h1>Time Left: <span id="span-timer">60</span>s</h1>
         <!-- title -->
         <h1 id="question-title"></h1>
@@ -34,11 +33,8 @@
         <!-- list of buttons -->
         <ul id="list-choices">
         </ul>
-    </section>
-
-
-
-
+    </article>
+</section>
     <!-- end game page -->
     <section class="hide" id="end-game-page">
         <!-- input -- type in player's name -->
@@ -51,20 +47,17 @@
     <!-- highscore -->
     <!-- list of existing highscores -->
     <section class="hide" id="highscore-page">
-        <ol id="list-highscore">
-            <li>Sam -- 0</li>
-            <li>Hannah -- 10</li>
-            <li>Kyle -- 20</li>
-        </ol>
+        <ul id="list-highscore">
+            <li>Luca -- 0</li>
+            <li>Marco -- 10</li>
+            <li>Oliver -- 20</li>
+
+        </ul>
     </section>
 
 
     <script src="questions.js"></script>
     <script src="app.js"></script>
-
- 
-
-
 
 </body>
 </html>

@@ -13,45 +13,50 @@
 
 const questions = [
     {
-        title: "how are ya?",
+        title: "how are you today?",
         choices: [
             {
-                title: "goodaaaa",
+                title: "GOOD",
                 isAnswer: true,
             },
             {
-                title: "bad",
+                title: "BAD",
                 isAnswer: false,
             },
         ],
+        if (isAnswer = true) {
+            greeting = "Correct";}
     },
+
     {
-        title: "how are doin?",
+        title: "What is 3 multiplied by 3",
         choices: [
             {
-                title: "bloody good",
+                title: "9",
                 isAnswer: true,
+                
             },
+            
             {
-                title: "bad",
+                title: "6",
                 isAnswer: false,
             },
             {
-                title: "maybe",
+                title: "I don't know",
                 isAnswer: false,
             },
         ],
     },
 
     {
-        title: "how are goin?",
+        title: "How confident are you for your test?",
         choices: [
             {
-                title: "bloody good",
+                title: "Confident",
                 isAnswer: true,
             },
             {
-                title: "bad",
+                title: "Not Confident",
                 isAnswer: false,
             },
         ],

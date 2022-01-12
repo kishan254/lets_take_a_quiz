@@ -1,0 +1,52 @@
+#landing-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  font-size: 48px;
+}
+
+.secondPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left:45%;
+  text-align: center; 
+  font-size: 22px;
+  list-style: none
+
+}
+
+.secondPage ul{
+  list-style: none
+}
+  
+  #btn-start {
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    position: absolute;
+    top: 14%;
+    left: 44%;
+    border: 3px solid green;
+  }
+
+  #end-game-page input {
+
+    position: absolute;
+    top: 40%;
+    left: 43%; 
+    font-size: 25px;
+    text-align: center;
+
+  }
+
+  #btn-submit-name {
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    position: absolute;
+    top: 45%;
+    left: 44%; 
+    border: 3px solid green;
+
+  }
