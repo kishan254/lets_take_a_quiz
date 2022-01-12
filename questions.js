@@ -1,4 +1,4 @@
-// qs
+// Questions
 // title
 // choices -- array
 // correct choice
@@ -24,8 +24,6 @@ const questions = [
                 isAnswer: false,
             },
         ],
-        if (isAnswer = true) {
-            greeting = "Correct";}
     },
 
     {
