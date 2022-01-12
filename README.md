@@ -3,7 +3,7 @@ game which includes questions
 
 This was a simple generic game that has 3 questions with a timer in it
 
-I have not managed to successfully showcase my scores at the end but I am hoping to get some help and try to ammend my code
+PLEASE NOTE: I have not managed to successfully showcase my scores at the end of the quiz but I am hoping to get some help and try to ammend my code
 
 # Links to the project
 
@@ -17,6 +17,3 @@ Live Github URL: https://kishan254.github.io/lets_take_a_quiz/
 
  ![two](images/two.png)
 
- ![three](images/three.png)
-
- ![four](images/four.png)
