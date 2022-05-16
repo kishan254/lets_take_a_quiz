@@ -151,6 +151,7 @@ btnSubmitName.addEventListener('click', function(event){
         // throw them an error
         throw "empty input";
     }
+    
 
     
     // we want to save the user name to the highscore -- local storage
